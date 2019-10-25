@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		1C1F53CD235DAF0E00C74A2C /* RESModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F53CC235DAF0E00C74A2C /* RESModel.swift */; };
 		1C1F53CF235DD5E300C74A2C /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F53CE235DD5E300C74A2C /* ForecastModel.swift */; };
+		1C1F53D423603E7A00C74A2C /* WFTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F53D323603E7A00C74A2C /* WFTopView.swift */; };
+		1C1F53D723603F2500C74A2C /* 城市信息.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F53D623603F2500C74A2C /* 城市信息.xml */; };
+		1C1F53D92362DF8000C74A2C /* WFAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F53D82362DF8000C74A2C /* WFAddressTableViewCell.swift */; };
+		1C1F53DB2362DF8E00C74A2C /* WFTodayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F53DA2362DF8E00C74A2C /* WFTodayTableViewCell.swift */; };
+		1C1F53DD2362DF9900C74A2C /* WFWeekdayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F53DC2362DF9900C74A2C /* WFWeekdayTableViewCell.swift */; };
+		1C1F53DF2362DFAB00C74A2C /* WFWindTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F53DE2362DFAB00C74A2C /* WFWindTableViewCell.swift */; };
+		1C1F53E12362DFBA00C74A2C /* WFWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F53E02362DFBA00C74A2C /* WFWeatherTableViewCell.swift */; };
+		1C1F53E32362DFC500C74A2C /* WFShineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F53E22362DFC500C74A2C /* WFShineTableViewCell.swift */; };
+		1C1F53E52362EC7300C74A2C /* WFTodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F53E42362EC7300C74A2C /* WFTodayCollectionViewCell.swift */; };
 		1C53DEE223595EC0000FAE99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53DEE123595EC0000FAE99 /* AppDelegate.swift */; };
 		1C53DEE423595EC0000FAE99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53DEE323595EC0000FAE99 /* ViewController.swift */; };
 		1C53DEE723595EC0000FAE99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C53DEE523595EC0000FAE99 /* Main.storyboard */; };
@@ -21,6 +30,15 @@
 /* Begin PBXFileReference section */
 		1C1F53CC235DAF0E00C74A2C /* RESModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESModel.swift; sourceTree = "<group>"; };
 		1C1F53CE235DD5E300C74A2C /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
+		1C1F53D323603E7A00C74A2C /* WFTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFTopView.swift; sourceTree = "<group>"; };
+		1C1F53D623603F2500C74A2C /* 城市信息.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "城市信息.xml"; sourceTree = "<group>"; };
+		1C1F53D82362DF8000C74A2C /* WFAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFAddressTableViewCell.swift; sourceTree = "<group>"; };
+		1C1F53DA2362DF8E00C74A2C /* WFTodayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFTodayTableViewCell.swift; sourceTree = "<group>"; };
+		1C1F53DC2362DF9900C74A2C /* WFWeekdayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFWeekdayTableViewCell.swift; sourceTree = "<group>"; };
+		1C1F53DE2362DFAB00C74A2C /* WFWindTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFWindTableViewCell.swift; sourceTree = "<group>"; };
+		1C1F53E02362DFBA00C74A2C /* WFWeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFWeatherTableViewCell.swift; sourceTree = "<group>"; };
+		1C1F53E22362DFC500C74A2C /* WFShineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFShineTableViewCell.swift; sourceTree = "<group>"; };
+		1C1F53E42362EC7300C74A2C /* WFTodayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFTodayCollectionViewCell.swift; sourceTree = "<group>"; };
 		1C53DEDE23595EC0000FAE99 /* TheWeatherForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWeatherForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C53DEE123595EC0000FAE99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C53DEE323595EC0000FAE99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +64,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C1F53D023603E2B00C74A2C /* CustomModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C1F53CE235DD5E300C74A2C /* ForecastModel.swift */,
+			);
+			path = CustomModel;
+			sourceTree = "<group>";
+		};
+		1C1F53D123603E4200C74A2C /* AlamofireModel */ = {
+			isa = PBXGroup;
+			children = (
+				1C1F53CC235DAF0E00C74A2C /* RESModel.swift */,
+			);
+			path = AlamofireModel;
+			sourceTree = "<group>";
+		};
+		1C1F53D223603E5E00C74A2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C1F53D323603E7A00C74A2C /* WFTopView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C1F53D523603E8000C74A2C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1C53DEF323596085000FAE99 /* WFBaseTableViewCell.swift */,
+				1C1F53D82362DF8000C74A2C /* WFAddressTableViewCell.swift */,
+				1C1F53DA2362DF8E00C74A2C /* WFTodayTableViewCell.swift */,
+				1C1F53E42362EC7300C74A2C /* WFTodayCollectionViewCell.swift */,
+				1C1F53DC2362DF9900C74A2C /* WFWeekdayTableViewCell.swift */,
+				1C1F53E02362DFBA00C74A2C /* WFWeatherTableViewCell.swift */,
+				1C1F53E22362DFC500C74A2C /* WFShineTableViewCell.swift */,
+				1C1F53DE2362DFAB00C74A2C /* WFWindTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		1C53DED523595EC0000FAE99 = {
 			isa = PBXGroup;
 			children = (
@@ -69,10 +126,12 @@
 			children = (
 				1C53DEE123595EC0000FAE99 /* AppDelegate.swift */,
 				1C53DEE323595EC0000FAE99 /* ViewController.swift */,
-				1C53DEF323596085000FAE99 /* WFBaseTableViewCell.swift */,
-				1C1F53CC235DAF0E00C74A2C /* RESModel.swift */,
-				1C1F53CE235DD5E300C74A2C /* ForecastModel.swift */,
+				1C1F53D523603E8000C74A2C /* Cell */,
+				1C1F53D223603E5E00C74A2C /* View */,
+				1C1F53D123603E4200C74A2C /* AlamofireModel */,
+				1C1F53D023603E2B00C74A2C /* CustomModel */,
 				1C53DEE523595EC0000FAE99 /* Main.storyboard */,
+				1C1F53D623603F2500C74A2C /* 城市信息.xml */,
 				1C53DEE823595EC1000FAE99 /* Assets.xcassets */,
 				1C53DEEA23595EC1000FAE99 /* LaunchScreen.storyboard */,
 				1C53DEED23595EC1000FAE99 /* Info.plist */,
@@ -159,6 +218,7 @@
 				1C53DEEC23595EC1000FAE99 /* LaunchScreen.storyboard in Resources */,
 				1C53DEE923595EC1000FAE99 /* Assets.xcassets in Resources */,
 				1C53DEE723595EC0000FAE99 /* Main.storyboard in Resources */,
+				1C1F53D723603F2500C74A2C /* 城市信息.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,10 +254,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C1F53E52362EC7300C74A2C /* WFTodayCollectionViewCell.swift in Sources */,
 				1C1F53CD235DAF0E00C74A2C /* RESModel.swift in Sources */,
+				1C1F53D423603E7A00C74A2C /* WFTopView.swift in Sources */,
 				1C53DEE423595EC0000FAE99 /* ViewController.swift in Sources */,
+				1C1F53E12362DFBA00C74A2C /* WFWeatherTableViewCell.swift in Sources */,
+				1C1F53DD2362DF9900C74A2C /* WFWeekdayTableViewCell.swift in Sources */,
+				1C1F53DF2362DFAB00C74A2C /* WFWindTableViewCell.swift in Sources */,
+				1C1F53D92362DF8000C74A2C /* WFAddressTableViewCell.swift in Sources */,
 				1C53DEE223595EC0000FAE99 /* AppDelegate.swift in Sources */,
+				1C1F53E32362DFC500C74A2C /* WFShineTableViewCell.swift in Sources */,
 				1C1F53CF235DD5E300C74A2C /* ForecastModel.swift in Sources */,
+				1C1F53DB2362DF8E00C74A2C /* WFTodayTableViewCell.swift in Sources */,
 				1C53DEF423596085000FAE99 /* WFBaseTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
